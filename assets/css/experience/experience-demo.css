@@ -1,0 +1,19 @@
+.experience__demo{
+
+}
+
+.experience__boton--demo{
+    width: 108px;
+    height: 40px;
+    color: var(--color-blanco);
+    border: 1px solid var(--color-boton-azul);
+    background-color: var(--color-boton-azul);
+    font-weight: bold;
+}
+
+.experience__boton--demo:hover{
+    color: var(--color-boton-azul);
+    border: 1px solid var(--color-boton-azul);
+    background-color: var(--color-blanco);
+    transition: all 0.2ms;
+}
