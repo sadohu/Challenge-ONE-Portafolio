@@ -1,0 +1,14 @@
+.title__profile{
+    width: 25%;
+    margin: 1rem 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .title__profile{
+        order: 99;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    
+}
