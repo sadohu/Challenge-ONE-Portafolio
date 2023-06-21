@@ -4,3 +4,20 @@
     flex-direction: column;
     margin-bottom: 4rem;
 }
+
+@media screen and (min-width:1024px) {
+    .experience__box{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap-reverse;
+    }
+
+    .experience__box:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+
+    .experience__box:nth-child(4) {
+        flex-direction: row-reverse;
+    }
+}
