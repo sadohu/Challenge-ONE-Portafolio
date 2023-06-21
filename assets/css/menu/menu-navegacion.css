@@ -1,4 +1,5 @@
 .menu__navegacion{
     display: flex;
-    gap: 10px;
+    width: 70%;
+    justify-content: flex-end;
 }
