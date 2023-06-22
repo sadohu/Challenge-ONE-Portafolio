@@ -1,0 +1,12 @@
+.formcontacto__textarea{
+    margin: 0 0 1.5rem;
+    padding: 1rem 1rem;
+    height: 133px;
+    font-size: 18px;
+    font-weight: 350;
+}
+
+.formcontacto__textarea::placeholder{
+    font-size: 18px;
+    font-weight: 350;
+}
