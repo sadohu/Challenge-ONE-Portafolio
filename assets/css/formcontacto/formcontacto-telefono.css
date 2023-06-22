@@ -4,7 +4,11 @@
 
 @media screen and (min-width:1024px) {
     .formcontacto__telefono{
-        display: block;
+        max-height: 600px;
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 80%;
     }
 }
