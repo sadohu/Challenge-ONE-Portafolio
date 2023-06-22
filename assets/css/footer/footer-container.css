@@ -1,0 +1,8 @@
+.footer__container{
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    align-items: center;
+    gap: 0.1rem;
+}
