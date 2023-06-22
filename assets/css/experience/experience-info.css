@@ -1,0 +1,7 @@
+.experience__info{
+    margin-top: 1rem;
+    height: calc(3rem + 58px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}

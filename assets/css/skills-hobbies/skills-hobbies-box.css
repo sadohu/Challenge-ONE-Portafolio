@@ -1,0 +1,19 @@
+.skills__box, .hobbies__box{
+    background-color: #fff;
+    height: 118px;
+    width: 46%;
+    margin-bottom: 1.5rem; 
+}
+
+@media screen and (min-width:768px) {
+    .skills__box, .hobbies__box{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .skills__box, .hobbies__box{
+        width: 15%;
+        height: 148px;
+    }
+}

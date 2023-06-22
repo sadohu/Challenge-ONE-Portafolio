@@ -1,0 +1,14 @@
+.formcontacto__contacto{
+    margin: 1rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0.5em;
+}
+
+@media screen and (min-width:1024px) {
+    .formcontacto__contacto{
+        flex-direction: row;
+        padding: 4rem 5rem;
+        gap: 2rem;
+    }
+}

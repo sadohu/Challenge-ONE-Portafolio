@@ -1,0 +1,16 @@
+.menu__header{
+    display: flex;
+    align-items: center;
+}
+
+.menu__header h3{
+    font-weight: bold;
+}
+
+.menu__list__item__contato{
+    font-weight: bold;
+}
+
+.menu__header__imagen{
+    margin-right: 0.5rem;
+}

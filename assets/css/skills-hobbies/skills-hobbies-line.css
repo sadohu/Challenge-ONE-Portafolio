@@ -1,0 +1,24 @@
+.skills__line, .hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skills__line ul, .hobbies__line ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60%;
+    width: 80%;
+    margin: 1rem auto;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width:1024px) {
+    .skills__line ul, .hobbies__line ul{
+        margin: 3.0rem auto 0;
+    }
+}
+
+
